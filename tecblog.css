@@ -1,0 +1,128 @@
+/*******************************************************
+Formatação*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #e6e6e6;
+}
+
+a{
+	color: #f7b600;
+}
+
+#header a{
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+}
+
+#header a:hover{
+	background: white;
+	color: #f7b600;
+}
+
+h1{
+	font-size: 2.5em;
+	color: #4e4e4e;
+}
+
+h2{
+	color: #f7b600;
+}
+
+h3{
+	color: #565656;
+	background: #CCC;
+	padding: 5px;
+}
+
+h4{
+	font-size: 0.9em;
+	font-weight: 100;
+}
+
+
+
+
+/*********************************************************
+Layout Menu*/
+#header{
+	background-color: #f7b600;
+	text-align: center;
+	padding: 15px;
+}
+
+#menu{
+	padding: 7px;
+}
+
+.branco{
+	color: white;
+}
+
+.titulo{
+	font-size: 1.5em;
+	color: #f7b600;
+	font-weight: bold;
+}
+
+/***********************************************
+ * Layout Post*/
+
+#principal{
+	background: white;
+	width: 920px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+#post{
+	width: 660px;
+	float: left;
+}
+
+.postagem{
+	padding: 7px;
+	margin-bottom: 10px;
+}
+
+.data-post{
+	font-size: 0.8em;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+
+/*****************************************
+ * area lateral*/
+
+#area-lateral{
+	width: 240px;
+	float: right;
+}
+
+.conteudo-lateral{
+	background: white;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+#rodape{
+	clear: both;
+	text-align: center;
+	padding: 15px;
+	background: #CCC;
+}
+
+.posts-recentes{
+	font-size: 0.8em;
+	padding: 5px;
+}
+
